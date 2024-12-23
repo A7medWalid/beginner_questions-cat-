@@ -1,0 +1,48 @@
+Define mean, median, and mode. Give a real-world example of when each would be the most appropriate measure of central tendency?
+
+mean: It is the arithmetic mean (the sum of the values / their number) we usually use with calculations and numbers to calculate the general average, for example when you want to calculate the average scores of engineering students in Control 1, for example
+median: It is the value in the middle of the data ranking, whether ascending or descending, and is usually used when there are abnormal or varying values, for example: if you want to analyze the prices of clothes and the prices are different according to the brand and the material, this will cause a disparity in prices, so the best option is to use the median.
+mode: is the most frequent value in the dataset, We use it when we want to know the most common value, example: If you have a clothing store and want to know the best-selling type.
+
+
+Explain the concept of variance and standard deviation. How are they related?
+
+Variance: Calculates the relationship between the spread or spacing of values in the data for the mean.
+Standard deviation: It is also used to determine the spread of values from the mean but in an easier way.
+the relation between them: Standard deviation is the square root of variance.
+
+
+What do you know about Left and right skewness? And what happens to mean, median and mode in each case?
+
+In left-wing deviation: the mode is higher than the median and the median is higher than the mean.
+In the right deviation: the mean is higher than the median and the median is higher than the mode
+
+
+What do you know about outliers? Give a real-world example demonstrating your understanding?
+
+are very big values or very small or values that do not exist or Nan Value.It has a big effect on the mean and its effect is little on the material and mode.
+Example: If we have values of 2000, 2200, 2500, 2700, 3000, 15000, the mean will be very high because of (15000) but the madian will not be affected
+
+
+What’s the difference between population and sample? Do the same measurements (mean, mode, median) apply to both?
+
+population: is all data , sample: is part of data.
+You can make the same measurements on them but in the population the accuracy is high to include all the data but in the sample it is estimated and there might be a simple mistakeز
+
+
+What is the difference between a discrete and a continuous random variable?
+
+discrete random variable: A variable takes a limited value from a set of integers,
+continuous random variable: A variable that takes unlimited values and can be decimal or fractional
+
+
+In normal distribution, what is the percentage of data falls within two standard deviations of the mean?
+
+About 95% of the data falls within the range of two standard deviations from the mean in the normal distribution.
+
+
+https://electric-lute-b04.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F460e1b84-1053-456a-93df-9fc1fac58785%2F7439fd3f-adcc-4944-ae44-a717c7462b58%2Fimage.png?table=block&id=a6cbf78a-e342-4ffb-bd6f-91d70fdc1d2c&spaceId=460e1b84-1053-456a-93df-9fc1fac58785&width=770&userId=&cache=v2
+
+mean=4 , madian=8 , mode:9(4) 
+(1-4)^2=9, (3-4)^2=1, (4-4)^2=0, (6-4)^2=4, (7-4)^2=9, (9-4)^2=25, (11-4)^2=49, (12-4)^2=64, (13-4)^2=81, (14-4)^2=100
+Variance=34.2 , Standard deviation=5.848
