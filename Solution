@@ -27,7 +27,7 @@ Example: If we have values of 2000, 2200, 2500, 2700, 3000, 15000, the mean will
 What’s the difference between population and sample? Do the same measurements (mean, mode, median) apply to both?
 
 population: is all data , sample: is part of data.
-You can make the same measurements on them but in the population the accuracy is high to include all the data but in the sample it is estimated and there might be a simple mistakeز
+You can make the same measurements on them but in the population the accuracy is high to include all the data but in the sample it is estimated and there might be a simple mistake.
 
 
 What is the difference between a discrete and a continuous random variable?
@@ -46,3 +46,57 @@ https://electric-lute-b04.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.u
 mean=4 , madian=8 , mode:9(4) 
 (1-4)^2=9, (3-4)^2=1, (4-4)^2=0, (6-4)^2=4, (7-4)^2=9, (9-4)^2=25, (11-4)^2=49, (12-4)^2=64, (13-4)^2=81, (14-4)^2=100
 Variance=34.2 , Standard deviation=5.848
+
+
+![jncv5kpd](https://github.com/user-attachments/assets/11464fc0-6b9e-460a-b90a-abaefb0f3444)
+https://electric-lute-b04.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F460e1b84-1053-456a-93df-9fc1fac58785%2F7db94368-1946-4703-971f-cd9882cc43e1%2Fimage.png?table=block&id=2da1165c-8c33-4a5c-8ee2-a2da84073155&spaceId=460e1b84-1053-456a-93df-9fc1fac58785&width=770&userId=&cache=v2
+
+the values that have most frequency are 10,9,8 that will affect the mean,madian,mode
+the mean will be high , the madian will not affected and mode is 10 the highest peak of distribution and high value
+
+
+What do you know about Python’s containers?
+
+python's containers are data structure used to store and aggregate data for example: lists, tuples, dictionaries and sets
+lists: store ordered data and data can be different types also data is mutable you can change it.
+tupls: tuples like lists but you can't change data.
+dictionaries: store data in more organized way it stored in the form Key-Value paris u can use Key to get value.
+sets: stored unordered data of only one type.
+
+What does apply() method do?
+
+it used with pandas and dataframes if you have Dataframe or table of data and u want to do an operation on each row or every elemnt 
+instead looping each element , you use apply() method to save time and code.
+
+How would you reverse a list in python in one line? (Don’t use reverse() method).
+
+we can use slicing --> reversed_list=list[::-1]
+
+Compare between continue, break and pass.
+
+continue : used to skip one cycle
+break: used to exit the loop
+pass: it does nothing it used when you working on code and you want to leave block empty without causing any error
+
+What is the output of this code? 
+a=[1,2,3,4,5]
+b=a
+b[0]=11
+print(a)
+the output will be [11,2,3,4,5]
+b has the same address of a in memory
+
+
+What is the output of this function?
+[1] [1,1] [1,1,1] in firt time the list by default is empty and every time you call function it append 1 at the end.
+
+What do you know about Object Oriented Programming?
+the idea of OOP that you divide your code into Classes and Objects each Class has methods and attributes to do specific task
+Encapsulation: It means that you hide the internal details of the object and display only the needs that the user needs to see.
+Inheritance: A new class can inherit from an existing variety and use or modify its data and functions
+Polymorphism: The same function (Method) does different things depending on the object that uses it
+Abstraction: Focus on what's important, and ignore the complicated details that you don't need to know
+
+What do you know about Functional Programming?
+I don't know to be honest.
+
